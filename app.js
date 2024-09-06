@@ -36,7 +36,8 @@ function pesquisar()
         }
         if(!resultados)
         {
-            resultados = `<p>${campoPesquisa} não foi encontrado!</p>`
+            section.innerHTML = `<p>${campoPesquisa} não foi encontrado!</p>`
+            //section.innerHTML = "<p>Nada foi encontrado!!!</p>"
             return;
         }
 
